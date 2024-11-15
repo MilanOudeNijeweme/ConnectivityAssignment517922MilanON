@@ -1,0 +1,139 @@
+@startuml
+!define RECTANGLE class
+
+' Define states as rectangles
+RECTANGLE Step0 {
+    :Start Timer;
+    :Transition when Timer.Q is TRUE;
+}
+RECTANGLE Step1 {
+    :Execute Reset;
+    :Transition when Reset.Done is TRUE;
+}
+RECTANGLE Step2 {
+    :Power.Enable := TRUE;
+    :Transition when Power.Enable AND Power.Valid is TRUE;
+}
+RECTANGLE Step3 {
+    :Check if CMMT_ST.Enabled;
+    :Transition to Step4 or Step10 based on conditions;
+}
+RECTANGLE Step4 {
+    :Execute Homing for CMMT_ST;
+    :Transition when Homing is complete;
+}
+RECTANGLE Step5 {
+    :Start Homing Timer;
+    :Transition when Timer.Q is TRUE;
+}
+RECTANGLE Step6 {
+    :Check if Homing is Valid;
+    :Transition to Step10 if Homing is Valid;
+}
+RECTANGLE Step10 {
+    :Set Position, Velocity, Acceleration, etc.;
+    :Transition when Position is reached;
+}
+RECTANGLE Step11 {
+    :Wait for 5 seconds;
+    :Transition when Timer.Q is TRUE;
+}
+RECTANGLE Step20 {
+    :Move to Position 300;
+    :Transition when Position is reached;
+}
+RECTANGLE Step21 {
+    :Wait for 5 seconds;
+    :Transition when Timer.Q is TRUE;
+}
+RECTANGLE Step30 {
+    :Move to Position 150;
+    :Transition when Position is reached;
+}
+RECTANGLE Step31 {
+    :Wait for 10 seconds;
+    :Transition when Timer.Q is TRUE;
+}
+RECTANGLE Step40 {
+    :Move to Position 300;
+    :Transition when Position is reached;
+}
+RECTANGLE Step41 {
+    :Wait for 5 seconds;
+    :Transition when Timer.Q is TRUE;
+}
+RECTANGLE Step50 {
+    :Move to Position 150;
+    :Transition when Position is reached;
+}
+RECTANGLE Step51 {
+    :Wait for 5 seconds;
+    :Transition when Timer.Q is TRUE;
+}
+RECTANGLE Step60 {
+    :Move to Position 225;
+    :Transition when Position is reached;
+}
+RECTANGLE Step61 {
+    :Wait for 5 seconds;
+    :Transition when Timer.Q is TRUE;
+}
+RECTANGLE Step70 {
+    :Move to Position 75;
+    :Transition when Position is reached;
+}
+RECTANGLE Step71 {
+    :Wait for 5 seconds;
+    :Transition when Timer.Q is TRUE;
+}
+RECTANGLE Step80 {
+    :Move to Position 150;
+    :Transition when Position is reached;
+}
+RECTANGLE Step81 {
+    :Wait for 5 seconds;
+    :Transition when Timer.Q is TRUE;
+}
+RECTANGLE Step90 {
+    :Move to Position 75;
+    :Transition when Position is reached;
+}
+RECTANGLE Step91 {
+    :Wait for 5 seconds;
+    :Transition when Timer.Q is TRUE;
+}
+RECTANGLE Step100 {
+    :Move to Position 0;
+    :Transition when Position is reached;
+}
+
+' Define transitions between states
+Step0 -down-> Step1 : When Timer.Q is TRUE
+Step1 -down-> Step2 : When Reset.Done is TRUE
+Step2 -down-> Step3 : When Power.Enable AND Power.Valid is TRUE
+Step3 -down-> Step4 : If CMMT_ST.Enabled AND NOT CMMT_ST.HomingValid
+Step3 -down-> Step10 : If CMMT_ST.Enabled AND CMMT_ST.HomingValid
+Step4 -down-> Step5 : When Homing is executed
+Step5 -down-> Step6 : When Timer.Q is TRUE
+Step6 -down-> Step10 : If Homing is Valid
+Step10 -down-> Step11 : When Position is reached
+Step11 -down-> Step20 : When Timer.Q is TRUE
+Step20 -down-> Step21 : When Position is reached
+Step21 -down-> Step30 : When Timer.Q is TRUE
+Step30 -down-> Step31 : When Position is reached
+Step31 -down-> Step40 : When Timer.Q is TRUE
+Step40 -down-> Step41 : When Position is reached
+Step41 -down-> Step50 : When Timer.Q is TRUE
+Step50 -down-> Step51 : When Position is reached
+Step51 -down-> Step60 : When Timer.Q is TRUE
+Step60 -down-> Step61 : When Position is reached
+Step61 -down-> Step70 : When Timer.Q is TRUE
+Step70 -down-> Step71 : When Position is reached
+Step71 -down-> Step80 : When Timer.Q is TRUE
+Step80 -down-> Step81 : When Position is reached
+Step81 -down-> Step90 : When Timer.Q is TRUE
+Step90 -down-> Step91 : When Position is reached
+Step91 -down-> Step100 : When Timer.Q is TRUE
+Step100 -down-> End : When Position is reached
+
+@enduml
