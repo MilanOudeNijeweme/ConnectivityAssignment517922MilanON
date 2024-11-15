@@ -1,0 +1,26 @@
+﻿{
+  "Guid": "00000000-0000-0000-0000-000000000000",
+  "PreviewImagePath": "Resources/Reader_werkend",
+  "Description": null,
+  "CreationDate": "2024-09-11T11:32:45.4211112+02:00",
+  "ModifiedDate": "2024-11-15T13:27:13.9664485+01:00",
+  "CreationUser": "milan",
+  "ModifiedUser": "milan",
+  "Tools": [],
+  "Components": [
+    "c2b7ca28-b461-4905-bbad-0226499f7939"
+  ],
+  "Resources": [
+    {
+      "Location": "ToolSuiteProject",
+      "Description": null,
+      "OwnerGuid": null,
+      "Metadata": {}
+    }
+  ],
+  "Metadata": {
+    "Versions": "[\"2.2.0.660\"]",
+    "SystemVersions": "[{\"Type\":4,\"Configurations\":[{\"Key\":\"Version\",\"Value\":\"2.2.0.660\"},{\"Key\":\"RenderTier\",\"Value\":\"2\"},{\"Key\":\"InformationalVersion\",\"Value\":\"Rev. 49547105e0b5\"}]},{\"Type\":5,\"Configurations\":[{\"Key\":\"Name\",\"Value\":\"CMMT-AS Plug-in\"},{\"Key\":\"Version\",\"Value\":\"2.3.0.868\"},{\"Key\":\"ToolGUID\",\"Value\":\"cc0c8c4e-e21d-4f82-b0ff-30882eec7e9a\"}]},{\"Type\":5,\"Configurations\":[{\"Key\":\"Name\",\"Value\":\"CMMT-ST Plug-in\"},{\"Key\":\"Version\",\"Value\":\"2.3.0.868\"},{\"Key\":\"ToolGUID\",\"Value\":\"dd9cd61e-7fbb-4785-87aa-0e774d93878e\"}]},{\"Type\":5,\"Configurations\":[{\"Key\":\"Name\",\"Value\":\"CPX Plug-in\"},{\"Key\":\"Version\",\"Value\":\"2.3.1.5\"},{\"Key\":\"ToolGUID\",\"Value\":\"3ad7885c-30d9-4dce-af6b-77b14245f962\"}]},{\"Type\":5,\"Configurations\":[{\"Key\":\"Name\",\"Value\":\"CPX-AP Plug-in\"},{\"Key\":\"Version\",\"Value\":\"1.1.1.7\"},{\"Key\":\"ToolGUID\",\"Value\":\"9621a18d-8e1e-455d-b029-f21c0ce2fbed\"}]},{\"Type\":6,\"Configurations\":[{\"Key\":\"Name\",\"Value\":\"Scan\"},{\"Key\":\"Version\",\"Value\":\"2.2.0.543\"},{\"Key\":\"ToolGUID\",\"Value\":\"bb65b1ea-a5b7-470b-97c2-97c614d315ac\"}]}]"
+  },
+  "FormatVersion": "2.00"
+}

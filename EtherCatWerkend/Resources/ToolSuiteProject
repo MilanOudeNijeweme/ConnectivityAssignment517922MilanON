@@ -1,0 +1,846 @@
+{
+  "$id": "1",
+  "Id": "c01c2ded-d421-4b41-a675-65e225539d70",
+  "StorageType": "ToolSuiteProject",
+  "StorageVersion": "V2.0",
+  "ComponentGraph": {
+    "$id": "2",
+    "Id": "4a20c3ec-79ee-47d1-8a87-2b466813bf4f",
+    "Components": [
+      {
+        "$id": "3",
+        "Id": "e271a90e-361f-49e4-868b-dd9d408a7e86",
+        "Name": "CMMT-ST-C8-1C-EC-S0",
+        "ToolGuid": "dd9cd61e-7fbb-4785-87aa-0e774d93878e",
+        "ImageKey": "8084005",
+        "ConnectionString": {
+          "$id": "4",
+          "Name": "eth0",
+          "Type": "IPv4",
+          "Value": "192.168.0.120",
+          "Parameters": [
+            {
+              "Key": "DeviceName",
+              "Value": "CMMT-ST-C8-1C-EC-S0"
+            },
+            {
+              "Key": "Subnetmask",
+              "Value": "255.255.255.0"
+            },
+            {
+              "Key": "DHCP",
+              "Value": "False"
+            },
+            {
+              "Key": "Gateway",
+              "Value": "0.0.0.0"
+            },
+            {
+              "Key": "DNS",
+              "Value": "0.0.0.0"
+            },
+            {
+              "Key": "DeviceType",
+              "Value": "CMMT-ST-C8-1C-EC-S0"
+            },
+            {
+              "Key": "ProtocolName",
+              "Value": "FestoGenericMulticast"
+            },
+            {
+              "Key": "MAC",
+              "Value": "00:0E:F0:7D:EF:68"
+            },
+            {
+              "Key": "SerialNumber",
+              "Value": "JSHP2Z8XG3Q"
+            },
+            {
+              "Key": "SWVersion",
+              "Value": "V21.0.5.109_release"
+            },
+            {
+              "Key": "AppVersion",
+              "Value": "V21.0.5.109_release"
+            },
+            {
+              "Key": "DeviceDescription",
+              "Value": "Devicename:\tCMMT-ST-C8-1C-EC-S0\r\nDevicetype:\tCMMT-ST-C8-1C-EC-S0\r\nSerialnumber:\tJSHP2Z8XG3Q\r\nProductKey:\tunknown\r\nPartnumber:\t8084005\r\nNOC:\t\tCMMT-ST-C8-1C-EC-S0\r\nFirmware:\tV21.0.5.109_release\r\n\r\nDHCP:\t\tno\r\nIP Address:\t192.168.0.120\r\nIP Netmask:\t255.255.255.0\r\nGateway:\t0.0.0.0\r\nDNS:\t\t0.0.0.0\r\nMAC:\t\t00:0E:F0:7D:EF:68\r\n\r\nGeneric info:\t00:00:00:00:00:00\r\n\t\t00:00:00:00:00:00"
+            },
+            {
+              "Key": "IpAddressConfigPossibility",
+              "Value": "3"
+            },
+            {
+              "Key": "IsPwdRequired",
+              "Value": "False"
+            },
+            {
+              "Key": "IsIdentifyRunning",
+              "Value": "False"
+            },
+            {
+              "Key": "ENGPoverENGTSupported",
+              "Value": "False"
+            },
+            {
+              "Key": "ENGPSupported",
+              "Value": "False"
+            },
+            {
+              "Key": "Debug_ApplicationType",
+              "Value": "8084005"
+            },
+            {
+              "Key": "Debug_IpAddress",
+              "Value": "0"
+            },
+            {
+              "Key": "Debug_StaticIpAddress",
+              "Value": "-1062731656"
+            },
+            {
+              "Key": "Debug_Gateway",
+              "Value": "0"
+            },
+            {
+              "Key": "Debug_StaticSubnetmask",
+              "Value": "-256"
+            },
+            {
+              "Key": "Debug_StaticGateway",
+              "Value": "0"
+            },
+            {
+              "Key": "Debug_DNSserver",
+              "Value": "0"
+            },
+            {
+              "Key": "Debug_StaticDNSserver",
+              "Value": "0"
+            },
+            {
+              "Key": "Debug_DevicePassword",
+              "Value": ""
+            },
+            {
+              "Key": "Debug_State",
+              "Value": "0"
+            },
+            {
+              "Key": "Debug_SubState",
+              "Value": "0"
+            },
+            {
+              "Key": "Debug_ProtocolName",
+              "Value": "FestoGenericMulticast"
+            },
+            {
+              "Key": "Debug_DeviceState",
+              "Value": "0"
+            },
+            {
+              "Key": "Debug_AddressType",
+              "Value": "0"
+            },
+            {
+              "Key": "Debug_DeviceName",
+              "Value": "CMMT-ST-C8-1C-EC-S0"
+            },
+            {
+              "Key": "Debug_Address",
+              "Value": "-1062731656"
+            },
+            {
+              "Key": "Debug_Subnetmask",
+              "Value": "-256"
+            },
+            {
+              "Key": "Debug_DeviceType",
+              "Value": "CMMT-ST-C8-1C-EC-S0"
+            },
+            {
+              "Key": "Debug_AppVersion",
+              "Value": "V21.0.5.109_release"
+            },
+            {
+              "Key": "Debug_MAC",
+              "Value": "00:0E:F0:7D:EF:68"
+            },
+            {
+              "Key": "Debug_SerialNumber",
+              "Value": "JSHP2Z8XG3Q"
+            },
+            {
+              "Key": "Debug_ProductKey",
+              "Value": "unknown"
+            },
+            {
+              "Key": "Debug_PartNumber",
+              "Value": "8084005"
+            },
+            {
+              "Key": "Debug_NOC",
+              "Value": "CMMT-ST-C8-1C-EC-S0"
+            },
+            {
+              "Key": "Debug_HardwareTypeId",
+              "Value": "33"
+            },
+            {
+              "Key": "Debug_SWVersion",
+              "Value": "V21.0.5.109_release"
+            },
+            {
+              "Key": "Debug_HWVersion",
+              "Value": ""
+            },
+            {
+              "Key": "Debug_DestinationId",
+              "Value": "4A534850325A38584733510000000000"
+            },
+            {
+              "Key": "Debug_UnscannedFavorite",
+              "Value": "False"
+            },
+            {
+              "Key": "Debug_DiagnoseState",
+              "Value": "14"
+            },
+            {
+              "Key": "Debug_UnicastReachable",
+              "Value": "False"
+            },
+            {
+              "Key": "Debug_Favorite",
+              "Value": "15"
+            }
+          ]
+        },
+        "Position": "9580,5320",
+        "CatalogPath": "CMMT-ST-C8-1C-EC-S0",
+        "ImportProductCatalog": [
+          {
+            "$id": "5",
+            "Id": "8fbdfea4-7b77-4a9c-a052-56553e314915",
+            "OrderCode": "CMMT-ST-C8-1C-EC-S0",
+            "PartNumber": "8084005"
+          }
+        ],
+        "ImportComponents": [
+          {
+            "$id": "6",
+            "Id": "625a71fe-5e4a-48c1-b76e-2d8f0f32fb0b",
+            "Product": {
+              "$ref": "5"
+            },
+            "ParameterSet": [
+              {
+                "Name": "Source",
+                "Value": "DeviceScan"
+              },
+              {
+                "$valuetype": "Festo.Connection.Contract.Device.ConnectionString[], Festo.Connection.Contract, Version=2.2.0.22, Culture=neutral, PublicKeyToken=null",
+                "Name": "ConnectionStrings",
+                "Value": [
+                  {
+                    "$id": "7",
+                    "Name": "eth0",
+                    "Type": "IPv4",
+                    "Value": "192.168.0.120",
+                    "Parameters": [
+                      {
+                        "Key": "DeviceName",
+                        "Value": "CMMT-ST-C8-1C-EC-S0"
+                      },
+                      {
+                        "Key": "Subnetmask",
+                        "Value": "255.255.255.0"
+                      },
+                      {
+                        "Key": "DHCP",
+                        "Value": "False"
+                      },
+                      {
+                        "Key": "Gateway",
+                        "Value": "0.0.0.0"
+                      },
+                      {
+                        "Key": "DNS",
+                        "Value": "0.0.0.0"
+                      },
+                      {
+                        "Key": "DeviceType",
+                        "Value": "CMMT-ST-C8-1C-EC-S0"
+                      },
+                      {
+                        "Key": "ProtocolName",
+                        "Value": "FestoGenericMulticast"
+                      },
+                      {
+                        "Key": "MAC",
+                        "Value": "00:0E:F0:7D:EF:68"
+                      },
+                      {
+                        "Key": "SerialNumber",
+                        "Value": "JSHP2Z8XG3Q"
+                      },
+                      {
+                        "Key": "SWVersion",
+                        "Value": "V21.0.5.109_release"
+                      },
+                      {
+                        "Key": "AppVersion",
+                        "Value": "V21.0.5.109_release"
+                      },
+                      {
+                        "Key": "DeviceDescription",
+                        "Value": "Devicename:\tCMMT-ST-C8-1C-EC-S0\r\nDevicetype:\tCMMT-ST-C8-1C-EC-S0\r\nSerialnumber:\tJSHP2Z8XG3Q\r\nProductKey:\tunknown\r\nPartnumber:\t8084005\r\nNOC:\t\tCMMT-ST-C8-1C-EC-S0\r\nFirmware:\tV21.0.5.109_release\r\n\r\nDHCP:\t\tno\r\nIP Address:\t192.168.0.120\r\nIP Netmask:\t255.255.255.0\r\nGateway:\t0.0.0.0\r\nDNS:\t\t0.0.0.0\r\nMAC:\t\t00:0E:F0:7D:EF:68\r\n\r\nGeneric info:\t00:00:00:00:00:00\r\n\t\t00:00:00:00:00:00"
+                      },
+                      {
+                        "Key": "IpAddressConfigPossibility",
+                        "Value": "3"
+                      },
+                      {
+                        "Key": "IsPwdRequired",
+                        "Value": "False"
+                      },
+                      {
+                        "Key": "IsIdentifyRunning",
+                        "Value": "False"
+                      },
+                      {
+                        "Key": "ENGPoverENGTSupported",
+                        "Value": "False"
+                      },
+                      {
+                        "Key": "ENGPSupported",
+                        "Value": "False"
+                      },
+                      {
+                        "Key": "Debug_ApplicationType",
+                        "Value": "8084005"
+                      },
+                      {
+                        "Key": "Debug_IpAddress",
+                        "Value": "0"
+                      },
+                      {
+                        "Key": "Debug_StaticIpAddress",
+                        "Value": "-1062731656"
+                      },
+                      {
+                        "Key": "Debug_Gateway",
+                        "Value": "0"
+                      },
+                      {
+                        "Key": "Debug_StaticSubnetmask",
+                        "Value": "-256"
+                      },
+                      {
+                        "Key": "Debug_StaticGateway",
+                        "Value": "0"
+                      },
+                      {
+                        "Key": "Debug_DNSserver",
+                        "Value": "0"
+                      },
+                      {
+                        "Key": "Debug_StaticDNSserver",
+                        "Value": "0"
+                      },
+                      {
+                        "Key": "Debug_DevicePassword",
+                        "Value": ""
+                      },
+                      {
+                        "Key": "Debug_State",
+                        "Value": "0"
+                      },
+                      {
+                        "Key": "Debug_SubState",
+                        "Value": "0"
+                      },
+                      {
+                        "Key": "Debug_ProtocolName",
+                        "Value": "FestoGenericMulticast"
+                      },
+                      {
+                        "Key": "Debug_DeviceState",
+                        "Value": "0"
+                      },
+                      {
+                        "Key": "Debug_AddressType",
+                        "Value": "0"
+                      },
+                      {
+                        "Key": "Debug_DeviceName",
+                        "Value": "CMMT-ST-C8-1C-EC-S0"
+                      },
+                      {
+                        "Key": "Debug_Address",
+                        "Value": "-1062731656"
+                      },
+                      {
+                        "Key": "Debug_Subnetmask",
+                        "Value": "-256"
+                      },
+                      {
+                        "Key": "Debug_DeviceType",
+                        "Value": "CMMT-ST-C8-1C-EC-S0"
+                      },
+                      {
+                        "Key": "Debug_AppVersion",
+                        "Value": "V21.0.5.109_release"
+                      },
+                      {
+                        "Key": "Debug_MAC",
+                        "Value": "00:0E:F0:7D:EF:68"
+                      },
+                      {
+                        "Key": "Debug_SerialNumber",
+                        "Value": "JSHP2Z8XG3Q"
+                      },
+                      {
+                        "Key": "Debug_ProductKey",
+                        "Value": "unknown"
+                      },
+                      {
+                        "Key": "Debug_PartNumber",
+                        "Value": "8084005"
+                      },
+                      {
+                        "Key": "Debug_NOC",
+                        "Value": "CMMT-ST-C8-1C-EC-S0"
+                      },
+                      {
+                        "Key": "Debug_HardwareTypeId",
+                        "Value": "33"
+                      },
+                      {
+                        "Key": "Debug_SWVersion",
+                        "Value": "V21.0.5.109_release"
+                      },
+                      {
+                        "Key": "Debug_HWVersion",
+                        "Value": ""
+                      },
+                      {
+                        "Key": "Debug_DestinationId",
+                        "Value": "4A534850325A38584733510000000000"
+                      },
+                      {
+                        "Key": "Debug_UnscannedFavorite",
+                        "Value": "False"
+                      },
+                      {
+                        "Key": "Debug_DiagnoseState",
+                        "Value": "14"
+                      },
+                      {
+                        "Key": "Debug_UnicastReachable",
+                        "Value": "False"
+                      },
+                      {
+                        "Key": "Debug_Favorite",
+                        "Value": "15"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "EngineeringProductCatalog": [
+          {
+            "$id": "8",
+            "Id": "2900efa2-dba6-4bbf-b649-5113834d77cf",
+            "IconMarkup": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n\r\n<Canvas xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\"\r\n        xmlns:attachedProperties=\"clr-namespace:Festo.Suite.Design.AttachedProperties;assembly=Festo.Suite.Design\"\r\n        Tag=\"CMMT-ST-EC\" Width=\"27\" Height=\"156\" VerticalAlignment=\"Top\">\r\n    <Canvas Tag=\"Body\" IsHitTestVisible=\"False\">\r\n        <Rectangle Tag=\"Base\" Width=\"27\" Height=\"152\" Fill=\"#FFF2F3F5\" Canvas.Left=\"0\" Canvas.Top=\"4.0\" />\r\n        <Rectangle Tag=\"Bottom\" Width=\"27\" Height=\"138\" Fill=\"#FFE5E8EB\" Canvas.Left=\"0\" Canvas.Top=\"18.0\" />\r\n        <Rectangle Tag=\"Top\" Width=\"27\" Height=\"12\" Fill=\"#FFE5E8EB\" Canvas.Left=\"0\" Canvas.Top=\"4.0\" />\r\n        <Canvas Tag=\"Festo Logo\">\r\n            <Path Tag=\"F\" Fill=\"#FF0091DC\" Canvas.Left=\"14.101\" Canvas.Top=\"20.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M.069 2.45A.077.077 0 0 1 0 2.368V.082A.077.077 0 0 1 .069 0H2a.077.077 0 0 1 .069.082V.409A.076.076 0 0 1 2 .49H.621A.076.076 0 0 0 .552.572V.9A.076.076 0 0 0 .621.98H1.862a.076.076 0 0 1 .069.082v.327a.076.076 0 0 1-.069.081H.621a.077.077 0 0 0-.069.082v.816a.076.076 0 0 1-.069.082Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n            <Path Tag=\"E\" Fill=\"#FF0091DC\" Canvas.Left=\"16.308\" Canvas.Top=\"20.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M0 .082A.076.076 0 0 1 .069 0H2.138a.077.077 0 0 1 .069.082V.409A.076.076 0 0 1 2.138.49H.621A.076.076 0 0 0 .552.572V.9A.076.076 0 0 0 .621.98H2a.076.076 0 0 1 .069.082v.327A.076.076 0 0 1 2 1.47H.621a.076.076 0 0 0-.069.082v.326a.076.076 0 0 0 .069.082H2.138a.076.076 0 0 1 .069.082v.326a.077.077 0 0 1-.069.082H.069A.076.076 0 0 1 0 2.368Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n            <Path Tag=\"S\" Fill=\"#FF0091DC\" Canvas.Left=\"18.652\" Canvas.Top=\"20.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M0 .98a.456.456 0 0 0 .414.489h1.1a.152.152 0 0 1 .138.164V1.8a.152.152 0 0 1-.138.164H.62a.077.077 0 0 1-.069-.082A.076.076 0 0 0 .483 1.8H.069A.076.076 0 0 0 0 1.878V1.96a.457.457 0 0 0 .414.49H1.793a.457.457 0 0 0 .413-.49V1.47A.456.456 0 0 0 1.793.98H.69A.152.152 0 0 1 .552.817V.654A.152.152 0 0 1 .69.49h.9a.076.076 0 0 1 .069.082.076.076 0 0 0 .069.082h.414A.076.076 0 0 0 2.207.572V.49A.457.457 0 0 0 1.793 0H.414A.457.457 0 0 0 0 .49Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n            <Path Tag=\"T\" Fill=\"#FF0091DC\" Canvas.Left=\"20.997\" Canvas.Top=\"20.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M0 .082A.076.076 0 0 1 .07 0H2.138a.076.076 0 0 1 .069.082V.409A.076.076 0 0 1 2.138.49H1.448A.076.076 0 0 0 1.38.572v1.8a.076.076 0 0 1-.069.082H.9a.076.076 0 0 1-.069-.082V.572A.076.076 0 0 0 .759.49H.069A.076.076 0 0 1 0 .409V.082Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n            <Path Tag=\"O\" Fill=\"#FF0091DC\" Canvas.Left=\"23.376\" Canvas.Top=\"20.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M1.765 2.457H.407a.345.345 0 0 1-.158-.039.411.411 0 0 1-.129-.105.506.506 0 0 1-.087-.156A.577.577 0 0 1 0 1.966V.492A.577.577 0 0 1 .032.3.507.507 0 0 1 .119.144.411.411 0 0 1 .249.039.345.345 0 0 1 .407 0H1.765a.346.346 0 0 1 .159.039.41.41 0 0 1 .129.105A.506.506 0 0 1 2.14.3a.578.578 0 0 1 .032.191V1.966a.578.578 0 0 1-.032.191.505.505 0 0 1-.087.156.41.41 0 0 1-.129.105A.346.346 0 0 1 1.765 2.457ZM.679.492a.125.125 0 0 0-.1.048.181.181 0 0 0-.04.116V1.8a.182.182 0 0 0 .04.116.124.124 0 0 0 .1.048h.815a.124.124 0 0 0 .1-.048.182.182 0 0 0 .04-.116V.655a.181.181 0 0 0-.04-.116.125.125 0 0 0-.1-.048Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n        </Canvas>\r\n    </Canvas>\r\n    <Canvas Tag=\"Auxiliary Interfaces\" IsHitTestVisible=\"False\">\r\n        <Rectangle Tag=\"X1C\" Width=\"6\" Height=\"12\" Fill=\"#FFB6BEC6\" Canvas.Left=\"8\" Canvas.Top=\"140\" />\r\n        <Rectangle Tag=\"X6\" Width=\"6\" Height=\"34\" Fill=\"#FFB6BEC6\" Canvas.Left=\"8\" Canvas.Top=\"104\" />\r\n        <Rectangle Tag=\"X2\" Width=\"9\" Height=\"15\" Fill=\"#FFB6BEC6\" Canvas.Left=\"8\" Canvas.Top=\"87\" />\r\n        <Rectangle Tag=\"X1A\" Width=\"9\" Height=\"19\" Fill=\"#FFB6BEC6\" Canvas.Left=\"8\" Canvas.Top=\"66\" />\r\n        <Rectangle Tag=\"X18\" Width=\"12.0\" Height=\"12.0\" Fill=\"#FFB6BEC6\" Stroke=\"#FFB6BEC6\" StrokeThickness=\"2\"\r\n                   Canvas.Left=\"8.0\" Canvas.Top=\"50.0\" />\r\n    </Canvas>\r\n    <Canvas Tag=\"Connectors\">\r\n        <Canvas Tag=\"XF2 OUT\" attachedProperties:SuiteProps.ConnectorName=\"XF2 OUT\"\r\n                attachedProperties:SuiteProps.TranslateTransformX=\"15.0\"\r\n                attachedProperties:SuiteProps.TranslateTransformY=\"4.0\"\r\n                attachedProperties:SuiteProps.ConnectorOutDirection=\"Up\" attachedProperties:SuiteProps.UIType=\"RJ45\">\r\n            <Canvas Tag=\"Up\">\r\n                <Rectangle Tag=\"RJ45\" Width=\"12.0\" Height=\"12.0\" Fill=\"#FFFFD600\" Stroke=\"#FFFFD600\"\r\n                           StrokeThickness=\"2\" Canvas.Left=\"15.0\" Canvas.Top=\"4.0\" />\r\n            </Canvas>\r\n        </Canvas>\r\n        <Canvas Tag=\"XF1 IN\" attachedProperties:SuiteProps.ConnectorName=\"XF1 IN\"\r\n                attachedProperties:SuiteProps.TranslateTransformX=\"0.0\"\r\n                attachedProperties:SuiteProps.TranslateTransformY=\"4.0\"\r\n                attachedProperties:SuiteProps.ConnectorOutDirection=\"Up\" attachedProperties:SuiteProps.UIType=\"RJ45\">\r\n            <Canvas Tag=\"Up\">\r\n                <Rectangle Tag=\"RJ45\" Width=\"12.0\" Height=\"12.0\" Fill=\"#FFFFD600\" Stroke=\"#FFFFD600\"\r\n                           StrokeThickness=\"2\" Canvas.Left=\"0.0\" Canvas.Top=\"4.0\" />\r\n            </Canvas>\r\n        </Canvas>\r\n    </Canvas>\r\n    <Rectangle Tag=\"StatusIconPlaceholder\" Width=\"16\" Height=\"16\" Canvas.Left=\"2\" Canvas.Top=\"20\"\r\n               IsHitTestVisible=\"False\" attachedProperties:SuiteProps.TranslateTransformX=\"2\"\r\n               attachedProperties:SuiteProps.TranslateTransformY=\"20\"\r\n               attachedProperties:SuiteProps.IsStatusIconPlaceHolder=\"True\" />\r\n    <Rectangle Tag=\"CodesysFieldbusSlaveStatusIconPlaceHolder\" Width=\"20\" Height=\"20\" Canvas.Left=\"4\" Canvas.Top=\"0\"\r\n               IsHitTestVisible=\"False\" attachedProperties:SuiteProps.TranslateTransformX=\"4\"\r\n               attachedProperties:SuiteProps.TranslateTransformY=\"0\"\r\n               attachedProperties:SuiteProps.IsCodesysFieldbusSlaveStatusIconPlaceHolder=\"True\" />\r\n</Canvas>",
+            "Vendor": "Festo",
+            "OrderCode": "CMMT-ST-C8-1C-EC-S0",
+            "PartNumber": "8084005",
+            "Connectors": [
+              {
+                "$id": "9",
+                "Id": "13573387-17da-42f0-b08a-5b8450cac884",
+                "Name": "XF1 IN",
+                "Role": "In",
+                "ConnectionType": "758ac86d-adda-4670-8240-64a0d7f300c6",
+                "Constraints": "MaxComponentConnections=1",
+                "ParameterSet": [
+                  {
+                    "Name": "CodesysDeviceIdentification",
+                    "Value": "65;^1D_007B5A25;"
+                  }
+                ]
+              },
+              {
+                "$id": "10",
+                "Id": "b22ebb6d-bde2-4ef9-819b-3fb5871162e2",
+                "Name": "XF2 OUT",
+                "Role": "Out",
+                "ConnectionType": "758ac86d-adda-4670-8240-64a0d7f300c6",
+                "Constraints": "MaxComponentConnections=1"
+              }
+            ],
+            "Connections": [
+              {
+                "$id": "11",
+                "Id": "444665ff-ea83-434e-917e-8bafc06f1705",
+                "SourceConnector": {
+                  "$ref": "9"
+                },
+                "TargetConnector": {
+                  "$ref": "10"
+                }
+              }
+            ],
+            "ParameterSet": [
+              {
+                "Name": "ExportFormats",
+                "Value": "db, Siemens DB (S7-1500);pck, Festo PCK"
+              }
+            ]
+          },
+          {
+            "$id": "12",
+            "Id": "96d6a738-17e2-4914-92ca-af88a08cbc48",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "13",
+            "Id": "a3120c3b-39f6-4982-8ea5-2fb43346b03e",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "14",
+            "Id": "d7e574d1-6e21-42ae-839e-2339c4baace2",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "15",
+            "Id": "39e95e87-b4a9-469a-b786-baa208712f9e",
+            "Name": "ELGC-TB-KF-45-300",
+            "PartNumber": "8062769"
+          },
+          {
+            "$id": "16",
+            "Id": "29be7d08-a465-4187-8913-cb90529baaa7",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "17",
+            "Id": "c7a8a416-cd32-4d69-8eca-f8f7f4476948",
+            "Name": "ELGC-TB-KF-45-300",
+            "PartNumber": "8062769"
+          },
+          {
+            "$id": "18",
+            "Id": "f381c678-62c7-46cf-9d97-9f7fedb2c8a3",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "19",
+            "Id": "2a54f4fb-0c6f-445d-ad1c-d6c24225545d",
+            "Name": "ELGC-TB-KF-45-300",
+            "PartNumber": "8062769"
+          },
+          {
+            "$id": "20",
+            "Id": "0097859f-d98c-4758-b1b2-eeb05ab43c1c",
+            "Name": "EAMM-A-V32-42A",
+            "PartNumber": "4281142"
+          },
+          {
+            "$id": "21",
+            "Id": "8af710e6-be52-409d-97cb-a430d5abc55f",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "22",
+            "Id": "d9dfdd82-94ba-4770-876d-1a4b5c626eb7",
+            "Name": "ELGC-TB-KF-45-300",
+            "PartNumber": "8062769"
+          },
+          {
+            "$id": "23",
+            "Id": "c9b0c769-a843-40e2-8292-6064c1393364",
+            "Name": "EAMM-A-V32-42A",
+            "PartNumber": "4281142"
+          },
+          {
+            "$id": "24",
+            "Id": "c4143f6f-6f52-4583-80ef-5925b5f51a81",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "25",
+            "Id": "bc92c666-ac1f-4cad-9a59-700eee850784",
+            "Name": "ELGC-TB-KF-45-300",
+            "PartNumber": "8062769"
+          },
+          {
+            "$id": "26",
+            "Id": "b10c4399-7f07-4187-8da1-c5017a42b05a",
+            "Name": "EAMM-A-V32-42A",
+            "PartNumber": "4281142"
+          },
+          {
+            "$id": "27",
+            "Id": "e47e48eb-b228-4f03-ad12-bd7d34444249",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "28",
+            "Id": "0e258607-cb0b-4416-8b25-8753872f76f7",
+            "Name": "ELGC-TB-KF-45-300",
+            "PartNumber": "8062769"
+          },
+          {
+            "$id": "29",
+            "Id": "7617fd17-a5a4-48a2-996b-259b104b0b88",
+            "Name": "EAMM-A-V32-42A",
+            "PartNumber": "4281142"
+          },
+          {
+            "$id": "30",
+            "Id": "c4330498-1142-4181-8cfa-47b070d66575",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "31",
+            "Id": "141a5b6a-86cb-4f68-bd20-c32a91559ab6",
+            "Name": "ELGC-TB-KF-45-300",
+            "PartNumber": "8062769"
+          },
+          {
+            "$id": "32",
+            "Id": "a94e8b37-537b-4d6e-b36e-ffd85da5a826",
+            "Name": "EAMM-A-V32-42A",
+            "PartNumber": "4281142"
+          },
+          {
+            "$id": "33",
+            "Id": "729db940-3dc6-4b06-b7af-ecf834d78088",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "34",
+            "Id": "085a1a35-bbb3-41a2-8d8c-c7576adee3b5",
+            "Name": "ELGC-TB-KF-45-300",
+            "PartNumber": "8062769"
+          },
+          {
+            "$id": "35",
+            "Id": "d7ba2e74-b06c-453b-9b1a-ef678071b40f",
+            "Name": "EAMM-A-V32-42A",
+            "PartNumber": "4281142"
+          },
+          {
+            "$id": "36",
+            "Id": "a3e7f5d4-6c36-4dc3-84e3-30ca520f43d3",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "37",
+            "Id": "312fb98e-bad9-4021-aa1a-d0bfced54279",
+            "Name": "ELGC-TB-KF-45-300",
+            "PartNumber": "8062769"
+          },
+          {
+            "$id": "38",
+            "Id": "14851fd4-45f0-4b6f-83d4-05f06b010082",
+            "Name": "EAMM-A-V32-42A",
+            "PartNumber": "4281142"
+          },
+          {
+            "$id": "39",
+            "Id": "2dc1d767-e26c-486f-ae5d-0c6931f2db22",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "40",
+            "Id": "917c426f-911f-4565-9656-0e51ce1b97ca",
+            "Name": "ELGC-TB-KF-45-300",
+            "PartNumber": "8062769"
+          },
+          {
+            "$id": "41",
+            "Id": "22f9f183-0a80-4b89-9458-f7e8eda5dd5e",
+            "Name": "EAMM-A-V32-42A",
+            "PartNumber": "4281142"
+          },
+          {
+            "$id": "42",
+            "Id": "50922e7d-22cd-4e2d-817b-e1f3bb9859b6",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "43",
+            "Id": "0af42a07-07a2-411f-a958-8e091e15dcdc",
+            "Name": "ELGC-TB-KF-45-300",
+            "PartNumber": "8062769"
+          },
+          {
+            "$id": "44",
+            "Id": "167cbe4a-dd7e-415d-af24-321ecf53784d",
+            "Name": "EAMM-A-V32-42A",
+            "PartNumber": "4281142"
+          },
+          {
+            "$id": "45",
+            "Id": "a5e609e8-ec5b-4210-9b18-ceef0a92c2bc",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "46",
+            "Id": "6400079c-617a-4b19-b6b2-05e1a98d018a",
+            "Name": "ELGC-TB-KF-45-300",
+            "PartNumber": "8062769"
+          },
+          {
+            "$id": "47",
+            "Id": "0ee1bf83-f4a4-4961-a406-b0101819c880",
+            "Name": "EAMM-A-V32-42A",
+            "PartNumber": "4281142"
+          },
+          {
+            "$id": "48",
+            "Id": "b5d93e34-d016-48cd-9932-1d6137df0d9d",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "49",
+            "Id": "6fdb3139-e58f-45c6-920c-07b77e31c397",
+            "Name": "ELGC-TB-KF-45-300",
+            "PartNumber": "8062769"
+          },
+          {
+            "$id": "50",
+            "Id": "11f52f86-1463-4378-84bc-e31533c79aaa",
+            "Name": "EAMM-A-V32-42A",
+            "PartNumber": "4281142"
+          }
+        ],
+        "EngineeringComponents": [
+          {
+            "$id": "51",
+            "Id": "7fdfc013-6929-417d-a586-5d3ac2849ec0",
+            "Name": "CMMT-ST-C8-1C-EC-S0",
+            "Product": {
+              "$ref": "8"
+            },
+            "Connectors": [
+              {
+                "$id": "52",
+                "Id": "13573387-17da-42f0-b08a-5b8450cac884",
+                "Name": "XF1 IN",
+                "Role": "In",
+                "ConnectionType": "758ac86d-adda-4670-8240-64a0d7f300c6",
+                "Constraints": "MaxComponentConnections=1",
+                "ParameterSet": [
+                  {
+                    "Name": "CodesysDeviceIdentification",
+                    "Value": "65;^1D_007B5A25;"
+                  },
+                  {
+                    "$valuetype": "System.Guid",
+                    "Name": "CodesysDeviceObjectId"
+                  }
+                ]
+              },
+              {
+                "$id": "53",
+                "Id": "b22ebb6d-bde2-4ef9-819b-3fb5871162e2",
+                "Name": "XF2 OUT",
+                "Role": "Out",
+                "ConnectionType": "758ac86d-adda-4670-8240-64a0d7f300c6",
+                "Constraints": "MaxComponentConnections=1"
+              }
+            ],
+            "Connections": [
+              {
+                "$id": "54",
+                "Id": "444665ff-ea83-434e-917e-8bafc06f1705",
+                "SourceConnector": {
+                  "$ref": "52"
+                },
+                "TargetConnector": {
+                  "$ref": "53"
+                }
+              }
+            ],
+            "ParameterSet": [
+              {
+                "Name": "StoredData",
+                "Value": true
+              }
+            ]
+          },
+          {
+            "$id": "55",
+            "Id": "68ec9f13-c893-4553-8bbd-26548124bfd0",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "Product": {
+              "$ref": "48"
+            },
+            "ParameterSet": [
+              {
+                "Name": "ComponentType",
+                "Value": "Motor"
+              }
+            ]
+          },
+          {
+            "$id": "56",
+            "Id": "35a935a4-9542-459e-bc64-6004219a319c",
+            "Name": "ELGC-TB-KF-45-300",
+            "Product": {
+              "$ref": "49"
+            },
+            "ParameterSet": [
+              {
+                "Name": "ComponentType",
+                "Value": "Axis"
+              }
+            ]
+          },
+          {
+            "$id": "57",
+            "Id": "5fecfa8c-105e-4e1a-92bd-879fda79e897",
+            "Name": "EAMM-A-V32-42A",
+            "Product": {
+              "$ref": "50"
+            },
+            "ParameterSet": [
+              {
+                "Name": "ComponentType",
+                "Value": "MountingKit"
+              }
+            ]
+          }
+        ],
+        "MainEngineeringComponent": {
+          "$ref": "51"
+        }
+      }
+    ],
+    "Connections": []
+  }
+}

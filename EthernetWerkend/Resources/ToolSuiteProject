@@ -1,0 +1,411 @@
+{
+  "$id": "1",
+  "Id": "20f38fd5-3cb8-4551-96db-b61313507ed5",
+  "StorageType": "ToolSuiteProject",
+  "StorageVersion": "V2.0",
+  "ComponentGraph": {
+    "$id": "2",
+    "Id": "d86aacc5-446f-4766-81cb-67df44337799",
+    "Components": [
+      {
+        "$id": "3",
+        "Id": "c2b7ca28-b461-4905-bbad-0226499f7939",
+        "Name": "CMMT-ST-C8-1C-EP-S0",
+        "ToolGuid": "dd9cd61e-7fbb-4785-87aa-0e774d93878e",
+        "ImageKey": "8084006",
+        "ConnectionString": {
+          "$id": "4",
+          "Name": "Eth0",
+          "Type": "IPv4",
+          "Value": "192.168.1.7"
+        },
+        "Position": "9580,5320",
+        "CatalogPath": "CMMT-ST-C8-1C-EP-S0",
+        "EngineeringProductCatalog": [
+          {
+            "$id": "5",
+            "Id": "b4d4a794-c804-46b7-9b29-4e117475a884",
+            "IconMarkup": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n\r\n<Canvas xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\"\r\n        xmlns:attachedProperties=\"clr-namespace:Festo.Suite.Design.AttachedProperties;assembly=Festo.Suite.Design\"\r\n        Tag=\"CMMT-ST\" Width=\"27\" Height=\"152\" VerticalAlignment=\"Top\">\r\n    <Canvas Tag=\"Body\" IsHitTestVisible=\"False\">\r\n        <Rectangle Tag=\"Base\" Width=\"27\" Height=\"152\" Fill=\"#FFF2F3F5\" Canvas.Left=\"0\" Canvas.Top=\"0\" />\r\n        <Rectangle Tag=\"Bottom\" Width=\"27\" Height=\"138\" Fill=\"#FFE5E8EB\" Canvas.Left=\"0\" Canvas.Top=\"14.0\" />\r\n        <Rectangle Tag=\"Top\" Width=\"27\" Height=\"12\" Fill=\"#FFE5E8EB\" Canvas.Left=\"0\" Canvas.Top=\"0\" />\r\n        <Canvas Tag=\"Festo Logo\">\r\n            <Path Tag=\"F\" Fill=\"#FF0091DC\" Canvas.Left=\"14.101\" Canvas.Top=\"16.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M.069 2.45A.077.077 0 0 1 0 2.368V.082A.077.077 0 0 1 .069 0H2a.077.077 0 0 1 .069.082V.409A.076.076 0 0 1 2 .49H.621A.076.076 0 0 0 .552.572V.9A.076.076 0 0 0 .621.98H1.862a.076.076 0 0 1 .069.082v.327a.076.076 0 0 1-.069.081H.621a.077.077 0 0 0-.069.082v.816a.076.076 0 0 1-.069.082Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n            <Path Tag=\"E\" Fill=\"#FF0091DC\" Canvas.Left=\"16.308\" Canvas.Top=\"16.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M0 .082A.076.076 0 0 1 .069 0H2.138a.077.077 0 0 1 .069.082V.409A.076.076 0 0 1 2.138.49H.621A.076.076 0 0 0 .552.572V.9A.076.076 0 0 0 .621.98H2a.076.076 0 0 1 .069.082v.327A.076.076 0 0 1 2 1.47H.621a.076.076 0 0 0-.069.082v.326a.076.076 0 0 0 .069.082H2.138a.076.076 0 0 1 .069.082v.326a.077.077 0 0 1-.069.082H.069A.076.076 0 0 1 0 2.368Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n            <Path Tag=\"S\" Fill=\"#FF0091DC\" Canvas.Left=\"18.652\" Canvas.Top=\"16.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M0 .98a.456.456 0 0 0 .414.489h1.1a.152.152 0 0 1 .138.164V1.8a.152.152 0 0 1-.138.164H.62a.077.077 0 0 1-.069-.082A.076.076 0 0 0 .483 1.8H.069A.076.076 0 0 0 0 1.878V1.96a.457.457 0 0 0 .414.49H1.793a.457.457 0 0 0 .413-.49V1.47A.456.456 0 0 0 1.793.98H.69A.152.152 0 0 1 .552.817V.654A.152.152 0 0 1 .69.49h.9a.076.076 0 0 1 .069.082.076.076 0 0 0 .069.082h.414A.076.076 0 0 0 2.207.572V.49A.457.457 0 0 0 1.793 0H.414A.457.457 0 0 0 0 .49Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n            <Path Tag=\"T\" Fill=\"#FF0091DC\" Canvas.Left=\"20.997\" Canvas.Top=\"16.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M0 .082A.076.076 0 0 1 .07 0H2.138a.076.076 0 0 1 .069.082V.409A.076.076 0 0 1 2.138.49H1.448A.076.076 0 0 0 1.38.572v1.8a.076.076 0 0 1-.069.082H.9a.076.076 0 0 1-.069-.082V.572A.076.076 0 0 0 .759.49H.069A.076.076 0 0 1 0 .409V.082Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n            <Path Tag=\"O\" Fill=\"#FF0091DC\" Canvas.Left=\"23.376\" Canvas.Top=\"16.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M1.765 2.457H.407a.345.345 0 0 1-.158-.039.411.411 0 0 1-.129-.105.506.506 0 0 1-.087-.156A.577.577 0 0 1 0 1.966V.492A.577.577 0 0 1 .032.3.507.507 0 0 1 .119.144.411.411 0 0 1 .249.039.345.345 0 0 1 .407 0H1.765a.346.346 0 0 1 .159.039.41.41 0 0 1 .129.105A.506.506 0 0 1 2.14.3a.578.578 0 0 1 .032.191V1.966a.578.578 0 0 1-.032.191.505.505 0 0 1-.087.156.41.41 0 0 1-.129.105A.346.346 0 0 1 1.765 2.457ZM.679.492a.125.125 0 0 0-.1.048.181.181 0 0 0-.04.116V1.8a.182.182 0 0 0 .04.116.124.124 0 0 0 .1.048h.815a.124.124 0 0 0 .1-.048.182.182 0 0 0 .04-.116V.655a.181.181 0 0 0-.04-.116.125.125 0 0 0-.1-.048Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n        </Canvas>\r\n    </Canvas>\r\n    <Canvas Tag=\"Auxiliary Interfaces\" IsHitTestVisible=\"False\">\r\n        <Rectangle Tag=\"X1C\" Width=\"6\" Height=\"12\" Fill=\"#FFB6BEC6\" Canvas.Left=\"8\" Canvas.Top=\"136\" />\r\n        <Rectangle Tag=\"X6\" Width=\"6\" Height=\"34\" Fill=\"#FFB6BEC6\" Canvas.Left=\"8\" Canvas.Top=\"100\" />\r\n        <Rectangle Tag=\"X2\" Width=\"9\" Height=\"15\" Fill=\"#FFB6BEC6\" Canvas.Left=\"8\" Canvas.Top=\"83\" />\r\n        <Rectangle Tag=\"X1A\" Width=\"9\" Height=\"19\" Fill=\"#FFB6BEC6\" Canvas.Left=\"8\" Canvas.Top=\"62\" />\r\n        <Rectangle Tag=\"X18\" Width=\"12.0\" Height=\"12.0\" Fill=\"#FFB6BEC6\" Stroke=\"#FFB6BEC6\" StrokeThickness=\"2\"\r\n                   Canvas.Left=\"8.0\" Canvas.Top=\"46.0\" />\r\n        <Rectangle Tag=\"XF2\" Width=\"12.0\" Height=\"12.0\" Fill=\"#FFB6BEC6\" Stroke=\"#FFB6BEC6\" StrokeThickness=\"2\"\r\n                   Canvas.Left=\"15.0\" Canvas.Top=\"0\" />\r\n        <Rectangle Tag=\"XF1\" Width=\"12.0\" Height=\"12.0\" Fill=\"#FFB6BEC6\" Stroke=\"#FFB6BEC6\" StrokeThickness=\"2\"\r\n                   Canvas.Left=\"0.0\" Canvas.Top=\"0\" />\r\n    </Canvas>\r\n</Canvas>",
+            "Vendor": "Festo",
+            "OrderCode": "CMMT-ST-C8-1C-EP-S0",
+            "PartNumber": "8084006",
+            "ParameterSet": [
+              {
+                "Name": "ExportFormats",
+                "Value": "db, Siemens DB (S7-1500);pck, Festo PCK"
+              }
+            ]
+          },
+          {
+            "$id": "6",
+            "Id": "5792a450-7330-43aa-a6c9-8bbac4dea43b",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "7",
+            "Id": "dbae8cbd-393a-42c3-93a7-93820a200917",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "8",
+            "Id": "8e7d4da8-0b5f-4373-aec7-538c82cbde57",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "9",
+            "Id": "874739cc-1387-4704-8fb7-5a1b8f159bec",
+            "Name": "EPCC-BS-32-100-8P",
+            "PartNumber": "5428844"
+          },
+          {
+            "$id": "10",
+            "Id": "af9da687-2ae6-477f-b0e5-40baf59e6659",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "11",
+            "Id": "eedd43e3-7401-4ec1-b8c0-c5032fc0b927",
+            "Name": "EPCC-BS-32-100-8P",
+            "PartNumber": "5428844"
+          },
+          {
+            "$id": "12",
+            "Id": "45de7da1-4028-4d7e-825c-7558060da539",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "13",
+            "Id": "121c75c1-7ca8-4396-a0e5-12b80529ce56",
+            "Name": "EPCC-BS-32-100-8P",
+            "PartNumber": "5428844"
+          },
+          {
+            "$id": "14",
+            "Id": "86d768ef-7c32-4fd1-9f07-dd2d1a9237ea",
+            "Name": "EAMM-A-V25-42A",
+            "PartNumber": "4582608"
+          },
+          {
+            "$id": "15",
+            "Id": "5700e063-733d-4a33-a84c-e192cc63f893",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "16",
+            "Id": "6b322dbb-64de-43dc-817e-69e4070cd731",
+            "Name": "EPCC-BS-32-100-8P",
+            "PartNumber": "5428844"
+          },
+          {
+            "$id": "17",
+            "Id": "9d45a6e7-1f6f-4f80-9a69-df6c6b30f0b0",
+            "Name": "EAMM-A-V25-42A",
+            "PartNumber": "4582608"
+          },
+          {
+            "$id": "18",
+            "Id": "6d8158b1-5cc6-4bd6-9c18-1596c36010a4",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "19",
+            "Id": "24f2be2f-ec2c-4e4f-a4c7-c15cab0131ed",
+            "Name": "EPCC-BS-32-100-8P",
+            "PartNumber": "5428844"
+          },
+          {
+            "$id": "20",
+            "Id": "54a7b5fe-fd1e-4d85-9cce-280b1d824590",
+            "Name": "EAMM-A-V25-42A",
+            "PartNumber": "4582608"
+          },
+          {
+            "$id": "21",
+            "Id": "7e5aa030-5ac6-45ed-aa69-0a1225974acc",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "22",
+            "Id": "d8834cfa-3aa1-4269-8b57-b8e9e43e4b2f",
+            "Name": "EPCC-BS-32-100-8P",
+            "PartNumber": "5428844"
+          },
+          {
+            "$id": "23",
+            "Id": "ad99f0c2-48fc-45d1-ab83-8a5d84c6fa9f",
+            "Name": "EAMM-A-V25-42A",
+            "PartNumber": "4582608"
+          },
+          {
+            "$id": "24",
+            "Id": "96e1c9b6-7df1-4b11-98b7-f7e1619d5435",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "25",
+            "Id": "2fbe79aa-1a7e-47e0-b9d9-b2e6320aa306",
+            "Name": "EPCC-BS-32-100-8P",
+            "PartNumber": "5428844"
+          },
+          {
+            "$id": "26",
+            "Id": "d7986d5b-4221-4d07-9bc6-8c85cddacf1f",
+            "Name": "EAMM-A-V25-42A",
+            "PartNumber": "4582608"
+          },
+          {
+            "$id": "27",
+            "Id": "fc588363-1091-4e8e-81f0-46ff2b085afd",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "28",
+            "Id": "02de8f2d-f294-446f-9458-e8eed824f633",
+            "Name": "EPCC-BS-32-100-8P",
+            "PartNumber": "5428844"
+          },
+          {
+            "$id": "29",
+            "Id": "93649712-434f-4ca5-a013-58fc0a1a4118",
+            "Name": "EAMM-A-V25-42A",
+            "PartNumber": "4582608"
+          },
+          {
+            "$id": "30",
+            "Id": "c18b86e4-65eb-4021-bce9-8a8dc01ad72d",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "31",
+            "Id": "7d78c685-8d3a-445b-9993-b28d6153b630",
+            "Name": "EPCC-BS-32-100-8P",
+            "PartNumber": "5428844"
+          },
+          {
+            "$id": "32",
+            "Id": "95b9535e-5dc5-48d3-8ac9-5216bf7ba2f9",
+            "Name": "EAMM-A-V25-42A",
+            "PartNumber": "4582608"
+          },
+          {
+            "$id": "33",
+            "Id": "56044ce7-488a-43db-ad79-8e60ba1db7d7",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "34",
+            "Id": "6ce076c7-5d30-435b-9774-7d7da8c743c7",
+            "Name": "EPCC-BS-32-100-8P",
+            "PartNumber": "5428844"
+          },
+          {
+            "$id": "35",
+            "Id": "fb4f49c7-7227-4feb-886c-b64812557c46",
+            "Name": "EAMM-A-V25-42A",
+            "PartNumber": "4582608"
+          },
+          {
+            "$id": "36",
+            "Id": "f4d21bbe-fea4-4c58-b9c0-282587835e65",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "37",
+            "Id": "a4d11e50-f616-405f-96aa-03ef81985819",
+            "Name": "EPCC-BS-32-100-8P",
+            "PartNumber": "5428844"
+          },
+          {
+            "$id": "38",
+            "Id": "15d62bd8-c8ca-49fe-9b4d-92bd2ec43701",
+            "Name": "EAMM-A-V25-42A",
+            "PartNumber": "4582608"
+          },
+          {
+            "$id": "39",
+            "Id": "67012124-6c09-492c-bcb2-cf56881a0a21",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "40",
+            "Id": "52246274-74d7-4e5d-9eef-b8e300b0e564",
+            "Name": "EPCC-BS-32-100-8P",
+            "PartNumber": "5428844"
+          },
+          {
+            "$id": "41",
+            "Id": "afada5c5-26c4-48bd-a575-6a30e46e83ce",
+            "Name": "EAMM-A-V25-42A",
+            "PartNumber": "4582608"
+          },
+          {
+            "$id": "42",
+            "Id": "929a03d2-30a6-46df-9b03-020ea17d652e",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "43",
+            "Id": "5b3aa265-7e07-4be5-96af-1865b2931516",
+            "Name": "EPCC-BS-32-100-8P",
+            "PartNumber": "5428844"
+          },
+          {
+            "$id": "44",
+            "Id": "4597c73b-c83e-492e-98d7-15a71fad0ea3",
+            "Name": "EAMM-A-V25-42A",
+            "PartNumber": "4582608"
+          },
+          {
+            "$id": "45",
+            "Id": "eb9169ae-d431-4a6f-b514-81fbc197b254",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "46",
+            "Id": "d40ebb80-dbec-4b05-ba48-4bcdd2af101f",
+            "Name": "EPCC-BS-32-100-8P",
+            "PartNumber": "5428844"
+          },
+          {
+            "$id": "47",
+            "Id": "7b23ab07-40fe-4ffd-9438-3057fa0eaac3",
+            "Name": "EAMM-A-V25-42A",
+            "PartNumber": "4582608"
+          },
+          {
+            "$id": "48",
+            "Id": "2a71fdcd-4113-4cbc-9ee8-fe7970267c45",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "49",
+            "Id": "8e8bc949-8212-42b2-b9b0-c624bd8c11e0",
+            "Name": "EPCC-BS-32-100-8P",
+            "PartNumber": "5428844"
+          },
+          {
+            "$id": "50",
+            "Id": "44876be7-ccc4-42f6-a0e3-8ced94a2b456",
+            "Name": "EAMM-A-V25-42A",
+            "PartNumber": "4582608"
+          },
+          {
+            "$id": "51",
+            "Id": "b22d226a-a553-455c-b38b-36a45b3b057d",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "52",
+            "Id": "12671a11-8bd7-457a-90bb-93cf4623c10a",
+            "Name": "EPCC-BS-32-100-8P",
+            "PartNumber": "5428844"
+          },
+          {
+            "$id": "53",
+            "Id": "80c4de35-7604-46dd-b303-09c5c1f1ae39",
+            "Name": "EAMM-A-V25-42A",
+            "PartNumber": "4582608"
+          },
+          {
+            "$id": "54",
+            "Id": "741efc0c-a90f-4907-866f-790c9cb1e273",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "PartNumber": "1370471"
+          },
+          {
+            "$id": "55",
+            "Id": "9a02bba1-dd82-4349-8495-20c3fd5dcb99",
+            "Name": "EPCC-BS-32-100-8P",
+            "PartNumber": "5428844"
+          },
+          {
+            "$id": "56",
+            "Id": "ecf7f1b6-50c4-4ae8-91d5-e27c020aed01",
+            "Name": "EAMM-A-V25-42A",
+            "PartNumber": "4582608"
+          }
+        ],
+        "EngineeringComponents": [
+          {
+            "$id": "57",
+            "Id": "ad52dc6b-830b-4424-a540-d868e393bd36",
+            "Name": "CMMT-ST-C8-1C-EP-S0",
+            "Product": {
+              "$ref": "5"
+            },
+            "ParameterSet": [
+              {
+                "Name": "StoredData",
+                "Value": true
+              }
+            ]
+          },
+          {
+            "$id": "58",
+            "Id": "d8aa12a2-97a7-40d8-8358-a8351f87d52f",
+            "Name": "EMMS-ST-42-S-SE-G2",
+            "Product": {
+              "$ref": "54"
+            },
+            "ParameterSet": [
+              {
+                "Name": "ComponentType",
+                "Value": "Motor"
+              }
+            ]
+          },
+          {
+            "$id": "59",
+            "Id": "53af7248-8c79-44d6-a581-7287360b77d7",
+            "Name": "EPCC-BS-32-100-8P",
+            "Product": {
+              "$ref": "55"
+            },
+            "ParameterSet": [
+              {
+                "Name": "ComponentType",
+                "Value": "Axis"
+              }
+            ]
+          },
+          {
+            "$id": "60",
+            "Id": "a9e75881-1270-4f83-92b3-ea5af6bf8fbf",
+            "Name": "EAMM-A-V25-42A",
+            "Product": {
+              "$ref": "56"
+            },
+            "ParameterSet": [
+              {
+                "Name": "ComponentType",
+                "Value": "MountingKit"
+              }
+            ]
+          }
+        ],
+        "MainEngineeringComponent": {
+          "$ref": "57"
+        }
+      }
+    ],
+    "Connections": []
+  }
+}
