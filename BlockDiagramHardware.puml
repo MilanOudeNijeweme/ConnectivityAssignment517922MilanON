@@ -1,0 +1,48 @@
+@startuml
+!define RECTANGLE class
+
+' Define hardware components as rectangles
+RECTANGLE PLC {
+    :Programmable Logic Controller;
+    :Handles logic and process control;
+}
+
+RECTANGLE EtherCAT_Master {
+    :EtherCAT Master;
+    :Manages communication with devices;
+}
+
+RECTANGLE CMMT_ST {
+    :Motion Controller (CMMT-ST);
+    :Controls actuator movements via EtherCAT;
+}
+
+RECTANGLE Actuators {
+    :Motors and Actuators;
+    :Perform physical movements;
+}
+
+RECTANGLE Sensors {
+    :Sensors (Homing, Position, etc.);
+    :Provide feedback for position verification;
+}
+
+RECTANGLE Power_Supply {
+    :Power Supply;
+    :Provides power to all components;
+}
+
+' Define connections between components with feedback included
+PLC -down-> EtherCAT_Master : Communicates control logic
+EtherCAT_Master -down-> CMMT_ST : Sends motion commands
+CMMT_ST -down-> Actuators : Drives actuator movements
+CMMT_ST -down-> Sensors : Receives feedback from sensors
+Sensors -right-> CMMT_ST : Sends feedback (e.g., position, homing status)
+CMMT_ST -right-> PLC : Sends status updates (e.g., homing validity, position)
+Power_Supply -down-> PLC : Powers the PLC
+Power_Supply -down-> EtherCAT_Master : Powers the EtherCAT Master
+Power_Supply -down-> CMMT_ST : Powers the Motion Controller
+Power_Supply -down-> Actuators : Powers the Actuators
+Power_Supply -down-> Sensors : Powers the Sensors
+
+@enduml
